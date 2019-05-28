@@ -9,6 +9,6 @@ class BlockSNS extends React.Component {
         </div>
         );
     }
-    }
+}
     
 export default BlockSNS;
