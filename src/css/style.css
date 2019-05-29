@@ -696,9 +696,51 @@ html, body, div, span, applet, object, iframe,
    line-height: 42px;
   }
  
- footer  * {
-   text-align: center;
- }
+
+  footer {
+    background-color: #3F4F5D;
+    padding: 70px 0 60px;
+  }
+  
+  footer  * {
+    text-align: center;
+    color: white;
+  }
+  
+  footer h2 {
+    color: white;
+    font-size: 50px;
+  }
+  
+  .footer_menu {
+    margin-top: 50px;
+  }
+  
+  .footer_menu ul {
+    display: block;
+  }
+  
+  .footer_menu ul>li {
+    display: inline-block;
+  }
+  
+  .footer_menu ul>li a {
+    display: inline-block;
+    font-size: 20px;
+    line-height: 1.5em;
+    color: #75828e;
+  }
+  
+  .footer_menu ul>li:not(:first-child) a {
+    margin-left: 20px;
+  }
+  
+  footer p {
+    font-size: 15px;
+    line-height: 1.2em;
+    margin-top: 40px;
+    font-family: "Hiragino Mincho ProN";
+  }
  
  @media (max-width: 1920px) {
  
@@ -1124,6 +1166,14 @@ html, body, div, span, applet, object, iframe,
    .block_sns>a:not(:first-child) {
      margin-left: 50px;
    }
+
+  .footer_menu ul>li {
+    display: block;
+  }
+  
+  .footer_menu ul>li a {
+    line-height: 2em;
+  }
  }
  
  

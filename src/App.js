@@ -1,4 +1,5 @@
 import React from 'react';
+import Head from './components/Head';
 import Header from './components/Header';
 import BlockBana from './components/BlockBana';
 import BlockWorks from './components/BlockWorks';
@@ -6,7 +7,7 @@ import BlockPrice from './components/BlockPrice';
 import BlockResults from './components/BlockResults';
 import BlockClinic from './components/BlockClinic';
 import BlockSNS from './components/BlockSNS';
-import BlockFooter from './components/BlockFooter';
+import Footer from './components/Footer';
 import MainModal from './components/MainModal';
 import './css/style.css';
 
@@ -30,6 +31,7 @@ class App extends React.Component {
   render () {
     return (
       <div className={`App ${ this.state.openModalStatus ? "modal" : ""}`}>
+        <Head />
         <Header
           controlHamMenu={this.controlHamMenu}
           openHamMenuStatus={this.state.openHamMenuStatus}
@@ -41,7 +43,7 @@ class App extends React.Component {
         <BlockResults />
         <BlockClinic />
         <BlockSNS />
-        <BlockFooter />
+        <Footer />
         <MainModal 
           controlModal={this.controlModal}
           openModalStatus={this.state.openModalStatus}
