@@ -456,6 +456,18 @@ html, body, div, span, applet, object, iframe,
    transform-origin: center center;
  }
  
+.p_work:hover::before {
+  content: "";
+  position: absolute;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: black;
+  opacity: 0.46;
+}
+
  .p_work .p_work_con {
    position: absolute;
    top: 260px;
@@ -464,6 +476,7 @@ html, body, div, span, applet, object, iframe,
    padding: 0px 26px;
    text-align: left;
    transition: top 0.6s;
+   z-index: 200;
  }
  
  .p_work:hover {

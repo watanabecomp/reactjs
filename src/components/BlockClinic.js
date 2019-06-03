@@ -14,18 +14,18 @@ class BlockClinic extends React.Component {
             <p class="info_3">TEL: 03-6338-7826</p>
             <div class="s_block_clinic_info">
               <div class="p_clinic_company">
-                <img src="img/building.png"/>
+                <img src="img/company.png"/>
               </div>
               
               <MapContainer
                 className="p_clinic_map"
                 options={{
-                  center: { lat: 41.0082, lng: 28.9784 },
-                  zoom: 8
+                  center: { lat: 35.674228, lng: 139.766582 },
+                  zoom: 13
                 }}
                 onMapLoad={map => {
                   var marker = new window.google.maps.Marker({
-                    position: { lat: 41.0082, lng: 28.9784 },
+                    position: { lat: 35.674228, lng: 139.766582 },
                     map: map,
                     title: 'Hello Istanbul!'
                   });

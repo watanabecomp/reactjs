@@ -14,7 +14,7 @@ class Footer extends React.Component {
               <li><a href="#">運営会社</a></li>
             </ul>
           </div>
-          <p>@Oh my teeth! All rights reserved.</p>
+          <p>©Oh my teeth! All rights reserved.</p>
         </footer>
       );
     }
