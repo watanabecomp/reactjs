@@ -1120,7 +1120,7 @@ html, body, div, span, applet, object, iframe,
      padding: 0px 10px;
      margin-top: 45px;
      text-align: center;
-     font-size: 20px;
+     font-size: 12px;
      line-height: 35px;
      font-family: "Chancery";
    }
@@ -1153,7 +1153,7 @@ html, body, div, span, applet, object, iframe,
    }
  
    .s_block_clinic .info_1, .s_block_clinic .info_2, .s_block_clinic .info_3 {
-     font-size: 20px;
+     font-size: 15px;
      line-height: 35px;
      font-family: "Chancery";
    }
